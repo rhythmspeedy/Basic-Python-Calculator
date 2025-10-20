@@ -2,7 +2,7 @@
 import tkinter as tk
 root = tk.Tk()
 root.title("Epic and Completely Unique Calculator")
-root.geometry("1200x500")
+root.geometry("350x500")
 root.resizable(False,False)
 display = tk.Entry(root, font=("Arial", 24), borderwidth=2, relief="ridge", justify="right")
 display.pack(padx=10, pady=20, fill="x")
@@ -50,4 +50,5 @@ clear_button = tk.Button(root, text = "Clear", font=('Arial',18), bg="#EE7878", 
 clear_button.pack(expand=True, fill="both", padx=10, pady=10)
 
 root.mainloop()
+
 
