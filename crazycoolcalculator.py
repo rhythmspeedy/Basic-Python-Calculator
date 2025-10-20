@@ -1,4 +1,4 @@
-#yo i made this totally unique calculator
+#yo i made this  unique calculator
 import tkinter as tk
 root = tk.Tk()
 root.title("Epic and Completely Unique Calculator")
@@ -31,7 +31,6 @@ def evaluate():
         display.insert(0, "ERROR") #display error instead
 
 #make the buttons
-#ngl i lowk have no idea how to do this so thanks chatgpt
 buttons = [
     ('7', '8', '9', '/'),
     ('4', '5', '6', '*'),
@@ -51,3 +50,4 @@ clear_button = tk.Button(root, text = "Clear", font=('Arial',18), bg="#EE7878", 
 clear_button.pack(expand=True, fill="both", padx=10, pady=10)
 
 root.mainloop()
+
